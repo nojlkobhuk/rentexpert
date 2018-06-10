@@ -32,5 +32,14 @@ namespace WebApplication1.Account
                 ErrorMessage.Text = result.Errors.FirstOrDefault();
             }
         }
+
+        protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        protected void CheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
