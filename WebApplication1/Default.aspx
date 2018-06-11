@@ -48,10 +48,10 @@
             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
             <Items>
                 <asp:MenuItem Text="Мои тех задания" Value="Мои тех задания">
-                    <asp:MenuItem Text="Черновики" Value="Черновики"></asp:MenuItem>
-                    <asp:MenuItem Text="Создать" Value="Создать"></asp:MenuItem>
-                    <asp:MenuItem Text="В работе" Value="В работе"></asp:MenuItem>
-                    <asp:MenuItem Text="Выполненные" Value="Выполненные"></asp:MenuItem>
+                    <asp:MenuItem Text="Черновики" Value="Черновики" runat="server" NavigateUrl="~/tz/drafts"></asp:MenuItem>
+                    <asp:MenuItem Text="Создать" Value="Создать" runat="server" NavigateUrl="~/tz/create"></asp:MenuItem>
+                    <asp:MenuItem Text="В работе" Value="В работе" runat="server" NavigateUrl="~/tz/at_work"></asp:MenuItem>
+                    <asp:MenuItem Text="Выполненные" Value="Выполненные" runat="server" NavigateUrl="~/tz/completed"></asp:MenuItem>
                 </asp:MenuItem>
             </Items>
             </asp:Menu>
@@ -92,28 +92,4 @@
             </asp:Menu>
         </div>
     </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
-            <div class="row" >
-            <p></p>
-            </div>
 </asp:Content>

@@ -90,8 +90,13 @@
        </LoggedInTemplate>
     </asp:LoginView>
             <footer>
-
-                <p class="text-center">&copy; <%: DateTime.Now.Year %> - Realty Expert</p>
+                <div class="navbar-fixed-bottom row-fluid">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <p class="text-center">&copy; <%: DateTime.Now.Year %> - Realty Expert</p>
+                        </div>
+                    </div>
+                </div>
             </footer>
 
     </form>
